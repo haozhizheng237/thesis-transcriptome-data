@@ -36,4 +36,4 @@ export LNP_RESULTS="$PWD/LNP_results"
 Rscript 'scripts/多组差异基因富集分析(LiverSpleen).R'
 ```
 
-肝脾 bulk 完整流程还需要通过 `ORGAN_PREPARED` 指定含 `raw_count_matrix.rds`、`TPM_matrix.rds` 和 `sample_metadata.csv` 的预处理目录。该流程的 KEGG GSEA 使用 `MOUSE_KEGG_GMT` 指定小鼠基因集文件。细胞系关键基因热图可通过 `CELL_TPM_DIR` 指定细胞系 TPM 矩阵目录。这些额外输入需另行提供。
+肝脾 bulk 完整流程还需要通过 `ORGAN_PREPARED` 指定含 `raw_count_matrix.rds`、`TPM_matrix.rds` 和 `sample_metadata.csv` 的预处理目录。该流程的 KEGG GSEA 使用 `MOUSE_KEGG_GMT` 指定小鼠基因集文件。细胞系关键基因热图可通过 `CELL_TPM_DIR` 指定细胞系 TPM 矩阵目录。
